@@ -3,7 +3,8 @@
     "username": "miladoll",
     "repositoryName": "tech-blog",
     "branch": "master",
-    "cname": "tech.miladoll.jp"
+    "cname": "tech.miladoll.jp",
+    "delay": "400"
   },
   "site": {
     "title": "MILADOLLぎじつ系",
