@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
     {{! Document Settings }}
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
@@ -13,7 +13,21 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset "favicon.jpg"}}" />
+    <meta name="msapplication-TileImage" content="{{asset "favicon.jpg"}}" />
+
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{meta_title}}" />
+    <meta property="og:description" content="{{meta_description}}" />
+    <meta property="og:url" content="{{@blog.url}}" />
+    <meta property="og:site_name" content="{{@blog.title}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{meta_title}}" />
+    <meta name="twitter:description" content="{{meta_description}}" />
+    <meta name="twitter:site" content="@miladoll_decchi" />
+
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -43,13 +57,9 @@
     {{{body}}}
 
     <footer class="site-footer">
-        <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a>
+        <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe RSS</span></a>
         <div class="">
-             <section class="copyright">All content copyright <a href="/">{{@blog.title}}</a> &copy; 2015 &bull; All rights reserved.</section>
-             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">&nbsp;</a>
-               <a href="http://ghost.org">Ghost</a> | 
-               <a href="https://github.com/dongri/Coder">Coder</a> theme forked from Casper by 
-               <a href="http://twitter.com/@dongriat">@dongriat</a></section>
+             <section class="copyright">All content copyright <a href="/">{{@blog.title}}</a> &copy; All rights reserved.</section>
         </div>
     </footer>
 
