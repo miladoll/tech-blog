@@ -10,7 +10,10 @@
     "description": "1/12中心ドール工房MILADOLL「ぎじつ系」担当・丁稚さんのブログです",
     "postsPerPage": "10"
   },
-  "socialnetwork": {},
+  "socialnetwork": {
+    "twitter": "miladoll_decchi",
+    "github": "miladoll"
+  },
   "theme": {
     "name": "casper"
   }
