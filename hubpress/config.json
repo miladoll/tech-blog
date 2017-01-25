@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "username": "miladoll-jp",
+    "repositoryName": "tech-blog",
+    "branch": "master"
+  },
+  "site": {
+    "title": "MILADOLLぎじつ系",
+    "description": "1/12中心ドール工房MILADOLL「ぎじつ系」担当・丁稚さんのブログです",
+    "postsPerPage": "10"
+  },
+  "socialnetwork": {},
+  "theme": {
+    "name": "casper"
+  }
+}
