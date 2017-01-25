@@ -2,7 +2,8 @@
   "meta": {
     "username": "miladoll",
     "repositoryName": "tech-blog",
-    "branch": "master"
+    "branch": "master",
+    "cname": "tech.miladoll.jp"
   },
   "site": {
     "title": "MILADOLLぎじつ系",
