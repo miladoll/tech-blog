@@ -830,3 +830,7 @@ body .gist .pl-s1, body .gist .pl-pds {
   color: #76A22F; 
 }
 
+#content-main article li > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
