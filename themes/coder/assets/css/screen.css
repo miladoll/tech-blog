@@ -850,7 +850,7 @@ dl dt {
 
 dl dd {
     margin-left: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 dl dd > p {
