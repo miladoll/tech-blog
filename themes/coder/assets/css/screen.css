@@ -852,3 +852,8 @@ dl dd {
     margin-left: 3em;
     margin-bottom: 1em;
 }
+
+dl dd > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
