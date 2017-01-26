@@ -831,6 +831,6 @@ body .gist .pl-s1, body .gist .pl-pds {
 }
 
 #content-main article li > p {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
